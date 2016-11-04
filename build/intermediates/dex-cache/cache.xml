@@ -1,0 +1,662 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/transforms/dex/internal/debug/folders/1000/10/com.android.support-support-core-ui-24.2.1_8ad40bdcbfc760c8a6b9966e8d85d73d15c06ae4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alexandre/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-sdk15/0.9/e741cd0d94e63a27bc7b8cbd8d04571c058bab32/anko-sdk15-0.9.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e741cd0d94e63a27bc7b8cbd8d04571c058bab32">
+        <dex dex="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/transforms/dex/internal/debug/folders/1000/10/anko-sdk15-0.9_50e9059f3772860a2046bebef462e6267ffbb2b2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/exploded-aar/uk.co.chrisjenx/calligraphy/2.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="ebcb0bcf52fab7c586f39717f7cb8de91748b1b1">
+        <dex dex="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/transforms/dex/internal/debug/folders/1000/10/uk.co.chrisjenx-calligraphy-2.2.0_aa4a45ce0455c3892f7852d8d7b22bd4f42686b1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/exploded-aar/com.trello/rxlifecycle/0.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="3a98a50c56978d02c0651d12f5a26c3e7c31c397">
+        <dex dex="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/transforms/dex/internal/debug/folders/1000/10/com.trello-rxlifecycle-0.6.1_65cc092af2268b5318e8ee72b1fc2e42e5941834/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-base/9.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="48917c60ea81213ea39cbd7123996a5401106dc3">
+        <dex dex="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/transforms/dex/internal/debug/folders/1000/10/com.google.android.gms-play-services-auth-base-9.2.1_fa01cc31dc29f76fc3995017b53fda8f0c42b0fb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alexandre/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/logging-interceptor/3.4.1/381fc1096ba65040d8e80ea43b2e1d9bad02345e/logging-interceptor-3.4.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="381fc1096ba65040d8e80ea43b2e1d9bad02345e">
+        <dex dex="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/transforms/dex/internal/debug/folders/1000/10/logging-interceptor-3.4.1_fdea7f18ee199b5aa690c5ab4e50c459985f459d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/transforms/dex/internal/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.1_d67042e0f013bfe8e253b70fab1e03be4cd67675/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/transforms/dex/internal/debug/folders/1000/10/com.android.support-support-core-utils-24.2.1_d61a109d29dfc955f098759763a95e8e2eeed3b3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alexandre/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/transforms/dex/internal/debug/folders/1000/10/glide-3.7.0_56fd74e45e081386ef856febdd9ffa0e3683f250/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alexandre/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.1.0/aa557d71ead91cbf26e0c316a0f593d168303309/converter-gson-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
+        <dex dex="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/transforms/dex/internal/debug/folders/1000/10/converter-gson-2.1.0_3e11c366277f680aa0f6199f3fc510fd50f81603/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/exploded-aar/com.mixpanel.android/mixpanel-android/4.6.4/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="0adb9447509bdd9a674c1c3e7e5ee996247df478">
+        <dex dex="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/transforms/dex/internal/debug/folders/1000/10/com.mixpanel.android-mixpanel-android-4.6.4_3b92f2b282a158db389caebe31c53c6c5d94a40e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/exploded-aar/io.reactivex/rxandroid/1.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="5a2386ad9bfff580b206a7fe305cdccd00798159">
+        <dex dex="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/transforms/dex/internal/debug/folders/1000/10/io.reactivex-rxandroid-1.2.1_5638b8b70c92bc770342423a01212d6d689f1607/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alexandre/.gradle/caches/modules-2/files-2.1/com.facebook.stetho/stetho/1.3.1/2c4076b466a0eb4d6ddf5721edd35cd1adc1f317/stetho-1.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="2c4076b466a0eb4d6ddf5721edd35cd1adc1f317">
+        <dex dex="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/transforms/dex/internal/debug/folders/1000/10/stetho-1.3.1_9a2d44d0cec607cfae31142ac19d2d97d2ed6a8e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/exploded-aar/com.squareup.leakcanary/leakcanary-android/1.3.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="9066b6d4e2536b49e3b58aa301fd925247032df0">
+        <dex dex="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/transforms/dex/internal/debug/folders/1000/10/com.squareup.leakcanary-leakcanary-android-1.3.1_943d2fcce2b6afd37649ca53e0e0258915a71cc2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alexandre/.gradle/caches/modules-2/files-2.1/com.jakewharton.timber/timber/3.1.0/3ab2aedaeb4bfa698d0021cb843b2040fbf57fc/timber-3.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="03ab2aedaeb4bfa698d0021cb843b2040fbf57fc">
+        <dex dex="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/transforms/dex/internal/debug/folders/1000/10/timber-3.1.0_6f47e0fe409f4f09a5254652f248a52f9df5fe54/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/transforms/dex/internal/debug/folders/1000/10/internal_impl-24.2.1_f18c1eb854da7b5536e9619bda624b6951345bb5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/9.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e1bec33f1ec5367e25676638b430b9d585f3dbec">
+        <dex dex="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/transforms/dex/internal/debug/folders/1000/10/com.google.android.gms-play-services-auth-9.2.1_fad813bf9fdd5e37aefb271deb8a479bffac767b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/transforms/dex/internal/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.1_3d923c50acbf9f9edaf6f5688557e6fc3ac57a9d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alexandre/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/7.0.1/d5d13ea991eab0252e3710e5df3d6a9d4b21d461/butterknife-7.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/transforms/dex/internal/debug/folders/1000/10/butterknife-7.0.1_4a13ba6c888cea2a946fad9135e7d99fba3b5532/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/transforms/dex/internal/debug/folders/1000/10/internal_impl-24.2.1_fd50295a005e58d56ec25815d55b85568cc39bf8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/exploded-aar/com.jakewharton.rxbinding/rxbinding/0.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="ffc09f4e5bdebe068e5101f587dadc42b60fbfe4">
+        <dex dex="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/transforms/dex/internal/debug/folders/1000/10/com.jakewharton.rxbinding-rxbinding-0.4.0_ed58d55aa7525c9ad36dad9a4cfddaec4f271b6a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alexandre/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.9.0/f824591a0016efbaeddb8300bee54832a1398cfa/okio-1.9.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/transforms/dex/internal/debug/folders/1000/10/okio-1.9.0_48d8559ad926750c84f52444ed673be79c8633c8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alexandre/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-support-v4/0.9/4616ffe811fc931672c50fb05834a62aa24cdab2/anko-support-v4-0.9.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="4616ffe811fc931672c50fb05834a62aa24cdab2">
+        <dex dex="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/transforms/dex/internal/debug/folders/1000/10/anko-support-v4-0.9_e71b80e04d70a98954e96bc06ac2b8b437f3508d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alexandre/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.1.0/2de7cd8b95b7021b1d597f049bcb422055119f2c/retrofit-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/transforms/dex/internal/debug/folders/1000/10/retrofit-2.1.0_67e6986b51a0e9a467027604481cdf00a45ac5b2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alexandre/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-appcompat-v7/0.9/69676bf4015be3e182e00dbebea5ee0c9325e78a/anko-appcompat-v7-0.9.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="69676bf4015be3e182e00dbebea5ee0c9325e78a">
+        <dex dex="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/transforms/dex/internal/debug/folders/1000/10/anko-appcompat-v7-0.9_95a03bbf05f32ecb5a26047594c1f90dabbe221e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/transforms/dex/internal/debug/folders/1000/10/com.android.support-support-fragment-24.2.1_83012f15e1beacda1b0249376d916425dd583a9a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/incremental-classes/internal/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="a98f1685dc582b79069051a6eacf73a3802740c7">
+        <dex dex="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/transforms/dex/internal/debug/folders/1000/10/instant-run-bootstrap_3e09c81f2f8edebe6e4030dccfabbac2b3efb402/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alexandre/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/transforms/dex/internal/debug/folders/1000/10/gson-2.7_416ee3dbe421e43d4ba6a28a1388e092704b5b63/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/9.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="152cba5ca28fd4a5191a8577a0fa96d61122041e">
+        <dex dex="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/transforms/dex/internal/debug/folders/1000/10/com.google.android.gms-play-services-identity-9.2.1_7a8c497af14e775581899cac42ce83b9580b22e7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="819c2c3a4fb135e085445d11131d069cf9c32b2a">
+        <dex dex="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/transforms/dex/internal/debug/folders/1000/10/com.google.android.gms-play-services-tasks-9.2.1_d2299811d73bb1c841e5ee16706d0d274453a05a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alexandre/.gradle/caches/modules-2/files-2.1/org.threeten/threetenbp/1.3.1/fecd59cfa6acebf3d0f2f41f55a1cc3e24e59726/threetenbp-1.3.1-no-tzdb.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="fecd59cfa6acebf3d0f2f41f55a1cc3e24e59726">
+        <dex dex="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/transforms/dex/internal/debug/folders/1000/10/threetenbp-1.3.1-no-tzdb_854c9676b5c5fa24e654bbc9f40fdcb1ebbc6c97/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alexandre/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.1.7/45aaffc3cf6fa7c9b9eed6121369cad25789cf4a/rxjava-1.1.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="45aaffc3cf6fa7c9b9eed6121369cad25789cf4a">
+        <dex dex="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/transforms/dex/internal/debug/folders/1000/10/rxjava-1.1.7_50fce296a6d0fcd38cf476655003fec3d47c1508/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alexandre/.gradle/caches/modules-2/files-2.1/com.squareup.haha/haha/1.3/d2c832f9d14a11c79f58a7ee2e10526a12152c72/haha-1.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d2c832f9d14a11c79f58a7ee2e10526a12152c72">
+        <dex dex="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/transforms/dex/internal/debug/folders/1000/10/haha-1.3_cbfbe0c4a1623217dda9698a7cbf44a0a1e3e81f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="6b896c1067633db41e9c10a3a5d0919c5c4cfc8c">
+        <dex dex="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/transforms/dex/internal/debug/folders/1000/10/com.google.android.gms-play-services-basement-9.2.1_9b5bb73905ee554b3f4a23385ab235dae3133d2a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/transforms/dex/internal/debug/folders/1000/10/internal_impl-24.2.1_c8bb55541f77bb98835a4fa27862c4913c66cbe6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alexandre/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.0.4/9c8d1a5d2eea3c9a7f58baa1a2fa11498cb41d0/kotlin-stdlib-1.0.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="09c8d1a5d2eea3c9a7f58baa1a2fa11498cb41d0">
+        <dex dex="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/transforms/dex/internal/debug/folders/1000/10/kotlin-stdlib-1.0.4_0f5f415e359a0f45af3ff130c0ca4726e7bfa5c8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/opt/cise/softs/androidSdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/transforms/dex/internal/debug/folders/1000/10/support-annotations-24.2.1_0fc520df1f499f98be7af8417d88e7bf493cd611/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/exploded-aar/com.trello/rxlifecycle-kotlin/0.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="0903b5997651e883d3ff4153c32e6f84e0825126">
+        <dex dex="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/transforms/dex/internal/debug/folders/1000/10/com.trello-rxlifecycle-kotlin-0.6.1_c6fceaf601c4594962f1088d5a3cd3915a208fcb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/transforms/dex/internal/debug/folders/1000/10/com.android.support-support-compat-24.2.1_3142eb253a2244e67303ee8ccc490dd2f4f4b757/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/transforms/dex/internal/debug/folders/1000/10/com.android.support-design-24.2.1_73818600831814d9a7f893a61b70ccea372a4485/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/transforms/dex/internal/debug/folders/1000/10/internal_impl-24.2.1_177feb1b76d5d83cfd19127c484fd612b2315326/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/exploded-aar/com.github.johnkil.print/print/1.3.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="4cedb14187be0bb5222b001f2323284f1b22157a">
+        <dex dex="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/transforms/dex/internal/debug/folders/1000/10/com.github.johnkil.print-print-1.3.1_2c998b8048a9a799e01622dda0954dd2944ad668/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alexandre/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/2.0.1/516c03b21d50a644d538de0f0369c620989cd8f0/jsr305-2.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="516c03b21d50a644d538de0f0369c620989cd8f0">
+        <dex dex="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/transforms/dex/internal/debug/folders/1000/10/jsr305-2.0.1_4b41c99982090ec503dec29f67da0afc19ba2dba/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alexandre/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/transforms/dex/internal/debug/folders/1000/10/javax.inject-1_e20d1a712d2db147abbf24337825a4119148f460/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/exploded-aar/info.android15.nucleus/nucleus-support-v7/4.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="dd7c28e3d46e4ff9ada23cea9951789c9848f959">
+        <dex dex="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/transforms/dex/internal/debug/folders/1000/10/info.android15.nucleus-nucleus-support-v7-4.0.0_38a4417ab82acdc6fe9397387fb3c90ee70c5655/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/incremental-runtime-classes/internal/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="5b8cd4a059ba03ff9a77d8a81d0a0e29f90ad8e5">
+        <dex dex="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/transforms/dex/internal/debug/folders/1000/10/instant-run_ddfefafc25077451bfa13828eac931942b4cafa0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/9.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="a65d98c9409f271d3209f4cc1f7d8e0391665fa5">
+        <dex dex="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/transforms/dex/internal/debug/folders/1000/10/com.google.android.gms-play-services-iid-9.2.1_0c52590018137bd4f668b834d4c0e4c6688de0bb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alexandre/.gradle/caches/modules-2/files-2.1/com.facebook.stetho/stetho-okhttp3/1.3.1/c596b3b33b5a92107bb70544bb5ee35f597bc6d8/stetho-okhttp3-1.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="c596b3b33b5a92107bb70544bb5ee35f597bc6d8">
+        <dex dex="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/transforms/dex/internal/debug/folders/1000/10/stetho-okhttp3-1.3.1_f4f5b5254454cba86c9f25ff3be68911b5d9a1af/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alexandre/.gradle/caches/modules-2/files-2.1/org.greenrobot/eventbus/3.0.0/ddd99896e9569eaababbe81b35d80e1b91c4ad85/eventbus-3.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="ddd99896e9569eaababbe81b35d80e1b91c4ad85">
+        <dex dex="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/transforms/dex/internal/debug/folders/1000/10/eventbus-3.0.0_d523c2e58a0c7bdd33e911eef3a5478e8c177d39/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/9.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="edf9a22ebf25281619265079aec8f5d433da1a5c">
+        <dex dex="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/transforms/dex/internal/debug/folders/1000/10/com.google.android.gms-play-services-gcm-9.2.1_8a5ab7a28e8de2f12cd10157ba41a453400018fb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/exploded-aar/com.jakewharton.threetenabp/threetenabp/1.0.3/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="401094efbd87997a34a95aaca1e31e476b3ce00c">
+        <dex dex="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/transforms/dex/internal/debug/folders/1000/10/com.jakewharton.threetenabp-threetenabp-1.0.3_391670589ad356c8f53346a7c7b1911434b98d7f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alexandre/.gradle/caches/modules-2/files-2.1/com.squareup.leakcanary/leakcanary-analyzer/1.3.1/325e7401a7ea16918eb39ba8baad8fd5561a55d3/leakcanary-analyzer-1.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="325e7401a7ea16918eb39ba8baad8fd5561a55d3">
+        <dex dex="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/transforms/dex/internal/debug/folders/1000/10/leakcanary-analyzer-1.3.1_8d4cdbd68b29a31cc8baa22f0250c038585af2ea/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alexandre/.gradle/caches/modules-2/files-2.1/com.github.grandstaish.paperparcel/paperparcel/1.0.0/a894d14e0aa91e4d9f6cd4cce67e0960a05cb4f7/paperparcel-1.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="a894d14e0aa91e4d9f6cd4cce67e0960a05cb4f7">
+        <dex dex="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/transforms/dex/internal/debug/folders/1000/10/paperparcel-1.0.0_81562bf648c1660ba643fbf7d587f3149ac7bec5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/transforms/dex/internal/debug/folders/1000/10/com.android.support-recyclerview-v7-24.2.1_83a06d2988dc237378d4649918c303838bfe00cc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alexandre/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-common/0.9/26c6156bea5eb494474c90528240daadf4b067c8/anko-common-0.9.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="26c6156bea5eb494474c90528240daadf4b067c8">
+        <dex dex="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/transforms/dex/internal/debug/folders/1000/10/anko-common-0.9_a9260254a8625601023f6741cf1f29b034dd67db/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/9.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="07c569a77f437c5c71eac8b1b636a50bebb69a93">
+        <dex dex="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/transforms/dex/internal/debug/folders/1000/10/com.google.android.gms-play-services-location-9.2.1_c061512e3493d97368a9b7d61b91f71c28978aab/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/exploded-aar/info.android15.nucleus/nucleus-support-v4/4.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="c8847b73321e9ff93130c450309751c73c81b228">
+        <dex dex="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/transforms/dex/internal/debug/folders/1000/10/info.android15.nucleus-nucleus-support-v4-4.0.0_4f07e09b56d2d4da434947b54c532fe4497d7240/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/transforms/dex/internal/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.1_0f13871405d723ac5c2b722da68dfc032990e53b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alexandre/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-runtime/1.0.4/8e25da5e31669f5acf514bdd99b94ff5c7003b3b/kotlin-runtime-1.0.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="8e25da5e31669f5acf514bdd99b94ff5c7003b3b">
+        <dex dex="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/transforms/dex/internal/debug/folders/1000/10/kotlin-runtime-1.0.4_1c8f85d0f02a09edbdd932a0d819ca9f6497bc53/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alexandre/.gradle/caches/modules-2/files-2.1/com.squareup.leakcanary/leakcanary-watcher/1.3.1/6904771474c058abfc5912c13d12b02754712165/leakcanary-watcher-1.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="6904771474c058abfc5912c13d12b02754712165">
+        <dex dex="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/transforms/dex/internal/debug/folders/1000/10/leakcanary-watcher-1.3.1_0e37f49c3d48dd831e86b8598ff9d609a4282a45/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/exploded-aar/com.android.support/multidex/1.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/transforms/dex/internal/debug/folders/1000/10/com.android.support-multidex-1.0.1_6d8a2fe85de212b356d068d106a04f00830dd55e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/transforms/dex/internal/debug/folders/1000/10/internal_impl-24.2.1_5388e1ebadeded9d96b8e46106def197b6450d6e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alexandre/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/adapter-rxjava/2.1.0/693eddc23e87ab13f9cf5001707ce8e7e1d1ff01/adapter-rxjava-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="693eddc23e87ab13f9cf5001707ce8e7e1d1ff01">
+        <dex dex="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/transforms/dex/internal/debug/folders/1000/10/adapter-rxjava-2.1.0_3a637ddbacaeec4b1eb8ccd98bd640fda5483d5a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/transforms/dex/internal/debug/folders/1000/10/com.android.support-support-media-compat-24.2.1_0a8562fa6415b16949cb61f8b5d5c33804dc28ac/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alexandre/.gradle/caches/modules-2/files-2.1/commons-cli/commons-cli/1.2/2bf96b7aa8b611c177d329452af1dc933e14501c/commons-cli-1.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="2bf96b7aa8b611c177d329452af1dc933e14501c">
+        <dex dex="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/transforms/dex/internal/debug/folders/1000/10/commons-cli-1.2_ed65ad529422de9caebde1b6b0cd2b36ebf5bdb4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alexandre/.gradle/caches/modules-2/files-2.1/org.joda/joda-money/0.10.0/4056712d2e6db043a38b78c4ee2130c74bae7216/joda-money-0.10.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="4056712d2e6db043a38b78c4ee2130c74bae7216">
+        <dex dex="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/transforms/dex/internal/debug/folders/1000/10/joda-money-0.10.0_5ef04c6d7f5dd0dd9fcd7b2a8a140eb4f6087e72/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alexandre/.gradle/caches/modules-2/files-2.1/info.android15.nucleus/nucleus/4.0.0/1e1f47480688ef7452c813fbdb095440004481e6/nucleus-4.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="1e1f47480688ef7452c813fbdb095440004481e6">
+        <dex dex="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/transforms/dex/internal/debug/folders/1000/10/nucleus-4.0.0_5aeda423c12a7f4e33a7ad2eaae4f7f40b996f1b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/9.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="bbd51be332bace144b3d16501ec0af379c3c8750">
+        <dex dex="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/transforms/dex/internal/debug/folders/1000/10/com.google.android.gms-play-services-maps-9.2.1_900c72a52153bccd046e45380b5276da86b4fc5e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alexandre/.gradle/caches/modules-2/files-2.1/com.google.dagger/dagger/2.5/571f4e0451db64a7b41dbeb5f2503986fe5acdb4/dagger-2.5.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="571f4e0451db64a7b41dbeb5f2503986fe5acdb4">
+        <dex dex="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/transforms/dex/internal/debug/folders/1000/10/dagger-2.5_66a82582fa2bf5772cb76d9e4b9f47e9a3ac1703/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="421b36cf4f0d3bbd75e8f28647fccf36674ef049">
+        <dex dex="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/transforms/dex/internal/debug/folders/1000/10/com.google.android.gms-play-services-base-9.2.1_6f793109140661a83351dc8a00c7f0ab23de8cfb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alexandre/.gradle/caches/modules-2/files-2.1/io.reactivex/rxkotlin/0.60.0/6729c889262e7c2cb6bba30cb9aa93d78167f69b/rxkotlin-0.60.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="6729c889262e7c2cb6bba30cb9aa93d78167f69b">
+        <dex dex="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/transforms/dex/internal/debug/folders/1000/10/rxkotlin-0.60.0_f2c7e416711b10362a2c3f688ae6ea8df2828f25/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/transforms/dex/internal/debug/folders/1000/10/com.android.support-support-v4-24.2.1_de821fa85a391c34a87abbac26b7d7bba3911764/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alexandre/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.4.1/c7c4f9e35c2fd5900da24f9872e3971801f08ce0/okhttp-3.4.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
+        <dex dex="/opt/cise/dev/tmp/native/primhipster/app/build/intermediates/transforms/dex/internal/debug/folders/1000/10/okhttp-3.4.1_23d947fe80dfe6320c4541ed136028bfc26757c2/classes.dex" />
+    </item>
+
+</items>

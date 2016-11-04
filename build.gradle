@@ -1,0 +1,36 @@
+buildscript {
+  ext.kotlin_version = '1.0.4'
+  repositories {
+    mavenCentral()
+    jcenter()
+    maven { url = 'https://jitpack.io' }
+    maven {url "https://clojars.org/repo/"}
+    maven { url "https://oss.sonatype.org/content/repositories/snapshots" }
+    maven { url "http://dl.bintray.com/tbruyelle/tbruyelle" }
+
+  }
+  dependencies {
+    classpath 'com.android.tools.build:gradle:2.2.2'
+    //kotlin required plugin
+    classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+    // android-hipster-needle-gradle-parent-dependency
+  }
+}
+
+allprojects {
+  repositories {
+    mavenCentral()
+    jcenter()
+    maven { url = 'https://jitpack.io' }
+    maven { url "http://dl.bintray.com/tbruyelle/tbruyelle" }
+    maven {url "https://clojars.org/repo/"}
+    maven { url "https://oss.sonatype.org/content/repositories/snapshots" }
+  }
+  tasks.withType(JavaForkOptions) {
+      jvmArgs '-Djava.awt.headless=true'
+  }
+}
+
+task clean(type: Delete) {
+  delete rootProject.buildDir
+}

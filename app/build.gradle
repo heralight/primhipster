@@ -1,0 +1,258 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-kapt'
+apply plugin: 'kotlin-android-extensions'
+
+
+android {
+    compileSdkVersion 24
+    buildToolsVersion "24.0.3"
+
+    defaultConfig {
+        applicationId 'com.heirko.prim'
+        minSdkVersion 16
+        targetSdkVersion 24
+
+        multiDexEnabled true
+
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner 'com.heirko.prim.MockTestRunner'
+
+    }
+
+    signingConfigs {
+        app {
+            storeFile file('com.heirko.prim.keystore')
+            storePassword 'android'
+            keyAlias 'android'
+            keyPassword 'android'
+        }
+    }
+
+    buildTypes {
+
+        applicationVariants.all { variant ->
+            if (variant.getBuildType().isMinifyEnabled()) {
+                variant.assemble.doLast {
+                    copy {
+                        from variant.mappingFile
+                        into "${rootDir}/proguardTools"
+                        rename { String fileName ->
+                            "mapping-${variant.name}.txt"
+                        }
+                    }
+                }
+            }
+        }
+
+        all {
+            buildConfigField 'String', 'API_ENDPOINT_LOCAL', "\"http://example.com\""
+            buildConfigField 'String', 'API_ENDPOINT_INTERNAL', "\"http://example.com\""
+            buildConfigField 'String', 'API_ENDPOINT_STAGING', "\"http://example.com\""
+            buildConfigField 'String', 'API_ENDPOINT_PRODUCTION', "\"http://example.com\""
+        }
+        debug {
+          def host = InetAddress.getLocalHost().getCanonicalHostName()
+          buildConfigField "String", "LOCAL_IP", '\"' + host + '\"'
+        }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            apply plugin: "signing"
+
+            shrinkResources true
+            minifyEnabled true
+
+            signingConfig signingConfigs.app
+
+        }
+        compileOptions.incremental = false
+    }
+
+    sourceSets {
+        main.java.srcDirs += 'src/main/kotlin'
+    }
+
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/dependencies'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/notice.txt'
+        exclude 'META-INF/notice'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/license.txt'
+        exclude 'META-INF/license'
+        exclude 'META-INF/license.txt'
+        exclude 'META-INF/maven/com.google.guava/guava/pom.xml'
+        pickFirst 'META-INF/maven/com.google.guava/guava/pom.xml'
+        exclude 'META-INF/maven/com.google.guava/guava/pom.properties'
+        pickFirst 'META-INF/maven/com.google.guava/guava/pom.properties'
+
+        exclude 'META-INF/maven/com.google.dagger/dagger/pom.properties'
+        pickFirst 'META-INF/maven/com.google.dagger/dagger/pom.properties'
+
+        exclude 'META-INF/maven/com.google.dagger/dagger/pom.xml'
+        pickFirst 'META-INF/maven/com.google.dagger/dagger/pom.xml'
+
+        exclude 'META-INF/license'
+        exclude 'META-INF/services/javax.annotation.processing.Processor'
+        exclude 'META-INF/services/org.robolectric.internal.ShadowProvider'
+        pickFirst 'META-INF/services/javax.annotation.processing.Processor'
+        exclude 'assets/oracle_mobile_cloud_internal_config.xml'
+
+    }
+
+    dexOptions {
+        preDexLibraries true
+        incremental true
+        javaMaxHeapSize "4g"
+    }
+
+    productFlavors {
+        internal {
+            applicationId 'com.heirko.prim.internal'
+        }
+        production {
+            applicationId 'com.heirko.prim'
+        }
+    }
+    
+
+    sourceSets {
+        // Functional tests live in src/functionalTests.
+        androidTest.java.srcDir 'src/functionalTest/java'
+    }
+
+    lintOptions {
+        disable "InvalidPackage", 'TypographyFractions', 'TypographyQuotes', 'TrustAllX509TrustManager'
+    }
+
+    // Always show the result of every unit test, even if it passes.
+    testOptions {
+        unitTests.returnDefaultValues = true
+    }
+
+    testOptions.unitTests.all {
+        testLogging {
+            events 'passed', 'skipped', 'failed', 'standardOut', 'standardError'
+        }
+
+    }
+
+}
+
+//kapt {
+//    generateStubs = true
+//}
+
+
+
+repositories {
+    mavenCentral()
+    flatDir {
+        dirs 'libs'
+    }
+}
+
+dependencies {
+    //automatically added dependencies when project was created
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+
+    //Kotlin dependencies including Anko
+    compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    compile "org.jetbrains.anko:anko-support-v4:0.9"
+    /**
+     * Anko's DSL dependencies
+     */
+    compile 'org.jetbrains.anko:anko-sdk15:0.9' // sdk19, sdk21, sdk23 are also available
+//    compile 'org.jetbrains.anko:anko-recyclerview-v7:0.7.1'
+//    compile 'org.jetbrains.anko:anko-percent:0.7.1'
+//    compile 'org.jetbrains.anko:anko-gridlayout-v7:0.7.1'
+//    compile 'org.jetbrains.anko:anko-design:0.7.1'
+//    compile 'org.jetbrains.anko:anko-cardview-v7:0.7.1'
+    compile 'org.jetbrains.anko:anko-appcompat-v7:0.9'
+
+    compile "com.android.support:multidex:1.0.1"
+    compile "com.android.support:support-annotations:24.0.0"
+    compile "com.android.support:multidex:1.0.1"
+    compile "io.reactivex:rxjava:1.1.7"
+    compile "io.reactivex:rxandroid:1.2.1"
+    compile "com.google.code.gson:gson:2.7"
+    compile "com.squareup.retrofit2:retrofit:2.1.0"
+    compile "com.squareup.okhttp3:okhttp:3.4.1"
+    compile "com.squareup.okhttp3:logging-interceptor:3.4.1"
+    compile "com.squareup.retrofit2:adapter-rxjava:2.1.0"
+    compile "com.squareup.retrofit2:converter-gson:2.1.0"
+    provided "javax.annotation:jsr250-api:1.0"
+
+    //Dagger 2 dependencies
+    compile "com.google.dagger:dagger:2.5"
+    kapt "com.google.dagger:dagger-compiler:2.5"
+    provided 'org.glassfish:javax.annotation:10.0-b28'
+
+    //Android basic dependencies
+    compile "com.android.support:support-v4:24.2.1"
+    compile "com.android.support:appcompat-v7:24.2.1"
+    compile "com.android.support:design:24.2.1"
+    compile "com.android.support:recyclerview-v7:24.2.1"
+
+    internalCompile "com.squareup.leakcanary:leakcanary-android:1.3.1"
+    productionCompile "com.squareup.leakcanary:leakcanary-android-no-op:1.3.1"
+
+    //Rx dependencies
+    compile "io.reactivex:rxkotlin:0.60.0"
+    compile "com.trello:rxlifecycle-kotlin:0.6.1"
+
+
+
+
+    kapt "com.jakewharton:butterknife:7.0.1"
+    compile "info.android15.nucleus:nucleus:4.0.0"
+    compile "info.android15.nucleus:nucleus-support-v4:4.0.0"
+    compile "info.android15.nucleus:nucleus-support-v7:4.0.0"
+    compile "com.jakewharton:butterknife:7.0.1"
+    compile "org.greenrobot:eventbus:3.0.0"
+    compile "com.github.bumptech.glide:glide:3.7.0"
+    compile "uk.co.chrisjenx:calligraphy:2.2.0"
+    compile "com.jakewharton.timber:timber:3.1.0"
+    compile "com.jakewharton.threetenabp:threetenabp:1.0.3"
+    compile "org.joda:joda-money:0.10.0"
+    compile "com.github.johnkil.print:print:1.3.1"
+    compile "com.mixpanel.android:mixpanel-android:4.6.4"
+    compile "com.facebook.stetho:stetho:1.3.1"
+    compile "com.facebook.stetho:stetho-okhttp3:1.3.1"
+    compile "com.github.grandstaish.paperparcel:paperparcel:1.0.0"
+    kapt "com.github.grandstaish.paperparcel:paperparcel:1.0.0"
+    compile "com.google.android.gms:play-services-base:9.2.1"
+    compile "com.google.android.gms:play-services-auth:9.2.1"
+    compile "com.google.android.gms:play-services-identity:9.2.1"
+    compile "com.google.android.gms:play-services-location:9.2.1"
+    compile "com.google.android.gms:play-services-gcm:9.2.1"
+    compile "com.google.android.gms:play-services-maps:9.2.1"
+    // android-hipster-needle-gradle-dependency
+
+}
+
+buildscript {
+
+    repositories {
+        mavenCentral()
+        jcenter()
+    }
+    dependencies {
+        classpath "org.jetbrains.kotlin:kotlin-android-extensions:1.0.4"
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.0.4"
+        // android-hipster-needle-gradle-parent-dependency
+    }
+}
+
+configurations.compile.dependencies.each { compileDependency ->
+    println "Excluding compile dependency: ${compileDependency.getName()}"
+    configurations.androidTestCompile.dependencies.each { androidTestCompileDependency ->
+        configurations.androidTestCompile.exclude module: "${compileDependency.getName()}"
+    }
+}
